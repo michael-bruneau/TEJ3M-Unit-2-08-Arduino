@@ -5,7 +5,6 @@
   This Arduio program causes micro Servo to to turn back and forth from 180 degress to 0 degrees
 */
 
-
 #include <Servo.h>
 
 Servo servoNumber1;
@@ -18,7 +17,6 @@ int blinkDelay = 1000;
 const int MAX_ANALOG_OUTPUT = 1023;
 int angle = 0;
 const float UNIT_ANGLE = 0.17;
-
 
 void setup()
 {
