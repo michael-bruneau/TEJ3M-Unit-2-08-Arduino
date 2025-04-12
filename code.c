@@ -2,7 +2,7 @@
   Created by: Michael Bruneau
   Created on: April 2025
 
-  This Arduio program causes micro servo to spin 180 degress when resitance is 1MΩ and 0 degrees at 0Ω
+  This Arduino program causes a micro servo to spin 180 degrees when potentiometer resistance is 1MΩ and 0 degrees at 0Ω
 */
 
 #include <Servo.h>
