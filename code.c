@@ -33,6 +33,6 @@ void loop() {
   	// converts wiper output to angle
   	angle = UNIT_ANGLE * wiperOutput;
       
-  	// Turns on LED if a object gets close to the sonar
+  	// turns micro servo
     servoNumber1.write(angle);     
 }
